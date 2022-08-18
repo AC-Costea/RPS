@@ -12,12 +12,16 @@ body{
     font-size: 30px;
     margin-top: 20px;
     font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 .opponents{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    
+    margin-top: 40px;
     
     
     
@@ -26,14 +30,21 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 30px;
     margin: 20px;
-    border: solid 3px aliceblue;
-    border-radius: 7px;
+    padding-left: 40px;
+
+}
+.player h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 5px;
 }
 .computer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 30px;
-    margin: 20px;
+    margin: 20px 350px 20px 20px;
     border: solid 3px aliceblue;
     border-radius: 7px;
 }
@@ -46,7 +57,7 @@ body{
     padding: 5px;
     background-color: white;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
 }
 .WinLoss{
@@ -54,4 +65,49 @@ body{
     gap: 40px;
     font-size: 25px;
     margin-left: 30px;
+}
+.counter{
+    display: flex;
+}
+.choice{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold   ;
+}
+
+.vs{
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+.playerChoice{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px aliceblue;
+    padding: 30px ;
+    margin: 20px;
+    align-self: stretch;
+    border-radius: 7px;
+    align-items: center;
+    width: 149.193;
+    height: 130.434;
+}
+.playerPick{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold
+}
+.last{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 70px;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
 }
